@@ -47,14 +47,14 @@ novabolt -l 8 -u=false -s=false -t 10
 
 Available Flags
 
-Flag Description Default
+Flag, Description, Default
 
--l Length of the password 16
+-l, Length of the password, 16
 
--u Include uppercase letters true
+-u, Include uppercase letters, true
 
--n Include numbers true
+-n, Include numbers, true
 
--s Include special characters true
+-s, Include special characters, true
 
--t Seconds before clipboard clears 30
+-t, Seconds before clipboard clears, 30
