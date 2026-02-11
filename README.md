@@ -24,13 +24,13 @@
    go build -o novabolt
    ```
 
-After you build the application with go build -o passgen, you can use it in several ways:
+After you build the application with go build -o novabolt, you can use it in several ways:
 
-- \*\*Default (16 chars, all types): ./passgen
-- \*\*Custom Length (32 chars): ./passgen -l 32
-- \*\*No Special Characters: ./passgen -s=false
-- \*\*A "Number Only" Pin (length 6): ./passgen -l 6 -u=false -s=false
-- \*\*Change the timer to 10 seconds: ./passgen -t 10
+- \*\*Default (16 chars, all types): ./novabolt
+- \*\*Custom Length (32 chars): ./novabolt -l 32
+- \*\*No Special Characters: ./novabolt -s=false
+- \*\*A "Number Only" Pin (length 6): ./novabolt -l 6 -u=false -s=false
+- \*\*Change the timer to 10 seconds: ./novabolt -t 10
 
 Run the tool using flags to customize your output:
 
