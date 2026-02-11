@@ -34,15 +34,15 @@ After you build the application with go build -o passgen, you can use it in seve
 
 Run the tool using flags to customize your output:
 
-# Generate a default 16-character secure password
+## Generate a default 16-character secure password
 
 novabolt
 
-# Generate a 32-character password with no special characters
+## Generate a 32-character password with no special characters
 
 novabolt -l 32 -s=false
 
-# Generate an 8-digit numeric PIN that clears in 10 seconds
+## Generate an 8-digit numeric PIN that clears in 10 seconds
 
 novabolt -l 8 -u=false -s=false -t 10
 
